@@ -14,6 +14,8 @@
       <set>
         <option value="$PROJECT_DIR$/dubbo-admin-server/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-admin-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-sample/pom.xml" />
       </set>
     </option>
   </component>

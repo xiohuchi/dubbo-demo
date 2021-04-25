@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/dubbo-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zookeeper-samples/dubbo-consumer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zookeeper-samples/dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-sample/nacos-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-sample/nacos-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-samples/zookeeper-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-samples/zookeeper-provider/src/main/java" charset="UTF-8" />
   </component>
 </project>
