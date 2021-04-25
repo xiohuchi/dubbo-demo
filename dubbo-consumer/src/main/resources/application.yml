@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: dubbo-consumer
+server:
+  port: 9082
+
+demo:
+  service:
+    version: 1.0.0
+
+dubbo:
+  # Dubbo Protocol
+  protocol:
+    name: dubbo
+    port: 12345
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache

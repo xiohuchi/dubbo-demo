@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: dubbo-provider
+server:
+  port: 9081
+
+demo:
+  service:
+    version: 1.0.0
+
+dubbo:
+  scan:
+    # Base packages to scan Dubbo Component: @org.apache.dubbo.config.annotation.Service
+    base-packages: com.example.demo.service
+  # Dubbo Protocol
+  protocol:
+    name: dubbo
+    port: 12345
+  ## Dubbo Registry
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
