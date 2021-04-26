@@ -16,4 +16,10 @@ public class AnnotatedGreetingService implements GreetingService {
         log.info("greeting service received: " + name);
         return "hello, " + name;
     }
+
+    @Override
+    public String sayNo(String name) {
+        log.info("greeting service received: " + name);
+        return "no, " + name;
+    }
 }

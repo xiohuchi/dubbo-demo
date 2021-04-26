@@ -6,4 +6,6 @@ package com.example.demo;
  */
 public interface GreetingService {
     String sayHello(String name);
+
+    String sayNo(String name);
 }
